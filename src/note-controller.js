@@ -9,10 +9,7 @@
      this.object = this.noteListView.returnHTM();
      this.page.getElementBYId('app').innerHTML = this.object:
   }
-  
 
-
- }
-
-
+exports.NoteController = NoteController
+})(this)
 })
